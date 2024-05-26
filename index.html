@@ -156,6 +156,10 @@
             cursor: pointer;
             border-radius: 50px;
             transition: all 0.3s ease;}
+        .yoyo{
+            font-family: "Courier New", Courier, monospace;
+            font-weight: bold;
+        }    
 
         @media (max-width: 768px) {
             .content {
@@ -165,6 +169,7 @@
                 flex: 1 1 100%;
             }
         }
+            
     </style>
 </head>
 <body>
@@ -178,8 +183,8 @@
 
         <div class="content">
             <div class="calculator">
-                <h2>DLS Method Calculator ;)</h2>
-                <p>Duckworth-Lewis-Stern calculation.</p>
+                <h2 class="yoyo">DLS Method Calculator ;)</h2>
+                <p class="yoyo">Duckworth-Lewis-Stern calculation.</p>
 
                 <div class="mmt_calc_frm">
                     <label style="color: #0d0d0f;">Team 1 Runs :</label>
@@ -226,11 +231,11 @@
                 </div>
             </div>
             <div class="mmt">
-                <h3>Formula</h3>
-                <p>Team 2's target score is calculated based on how many resources they have compared to Team 1:</p>
+                <h3 class="yoyo">Formula :</h3>
+                <p>Team 2's target score is calculated based on how many resources they have compared to Team 1 :</p>
                 <ul>
                     <li>If Team 1 completed its innings, Team 2's target score = Team 1's score × (Team 2's resources ÷ Team 1's resources).</li>
-                    <li>In a 50/20-over match with uninterrupted innings by Team 1, the formula simplifies to:</li>
+                    <li>In a 50/20-over match with uninterrupted innings by Team 1, the formula simplifies to :</li>
                     <li>Team 2's target score = Team 1's score × Team 2's resources.</li>
                 </ul>
             </div>
