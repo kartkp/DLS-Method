@@ -20,6 +20,7 @@
 
             </header>
         </div>
+        <div class="loader"></div>
 
         <div class="content">
             <div class="calculator">
@@ -162,6 +163,17 @@ corval[i][j] = txtval[i][j];
 }
 </script>
 <script type="text/javascript">
+<script>
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+  
+    loader.classList.add("loader--hidden");
+  
+    loader.addEventListener("transitionend", () => {
+      document.body.removeChild(loader);
+    });
+  });</script>    
+    
 function validate(rd)
 {
 var a = rd.value;
