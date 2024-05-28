@@ -5,10 +5,9 @@
         margin: 0;
         padding: 0;
         background-color: #f2f2f2;
-        background: url('score.jpg')
-        
-        
+        background: url('score.jpg')    
     }
+    
     .container {
         max-width: 1200px;
         margin: 20px auto;
@@ -169,7 +168,8 @@
         
     }
     .connect{
-        background-color: #bfc6ef;
+        /* background-color: #bfc6ef; */
+        background-color: 	#0077B5;
         border: none;
         color: rgb(10, 9, 9);
         padding: 12px 24px;
@@ -191,6 +191,7 @@
         font-family: "monospace";
         /* font-weight: bold; */
         font-size: 15px;
+        margin: 20px 0;
         
         
     }
@@ -237,7 +238,97 @@
         transform: scale(1,1.1) translate(-50%, 10%);
       }
     
+       /* a img {
+        background-color: #FFFFFF;
+        border: none;
+        color: rgb(10, 9, 9);
+        padding: 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        width: 50px;
+        height: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    a:hover img {
+        opacity: 0.8;
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    a:active img {
+        transform: scale(0.95);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    } */
+    
+    a img {
+        background-color: #FFFFFF;
+        border: none;
+        color: rgb(10, 9, 9);
+        padding: 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        width: 50px;
+        height: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    a:hover img {
+        opacity: 0.8;
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    a:active img {
+        transform: scale(0.95);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 1200px) {
+        a img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    
+    @media (max-width: 992px) {
+        a img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        a img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        a img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    
       
+
+
+
       @keyframes loading {
         from {
           transform: rotate(0turn);
@@ -253,6 +344,36 @@
         }
         .calculator, .sidebar {
             flex: 1 1 100%;
+        }
+    }
+
+
+
+
+    
+    /* NEW NEW */
+
+    @media (max-width: 1200px) {
+        .yoyo0 {
+            font-size: 14px; /* Slightly smaller font size */
+        }
+    }
+    
+    @media (max-width: 992px) {
+        .yoyo0 {
+            font-size: 12px; /* Smaller font size */
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .yoyo0 {
+            font-size: 10px; /* Even smaller font size */
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .yoyo0 {
+            font-size: 8px; /* Smallest font size for very small screens */
         }
     }
 
