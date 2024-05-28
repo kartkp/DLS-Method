@@ -77,19 +77,10 @@
         margin: 0 auto;
     }
     .mmt00 {
-        /* margin-bottom: 10px;
-        padding: 50px; */
+
         background-color: #f9f9f9;
-        /* box-shadow: 0 0 1px rgba(0,0,0,0.9); */
         font-family: 'Comic Sans MS', cursive, sans-serif;
-        /* border-radius: 10px;
-        margin-bottom: 10px;
-        width: 100%;
-        min-width: 7.5%;
-        max-width: fit-content;
-        margin: 0 auto;
-        float: left;
-     */
+
     }
     .mmt h3 {
         font-size: 1.5em;
@@ -238,35 +229,6 @@
         transform: scale(1,1.1) translate(-50%, 10%);
       }
     
-       /* a img {
-        background-color: #FFFFFF;
-        border: none;
-        color: rgb(10, 9, 9);
-        padding: 0px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 50%;
-        transition: all 0.3s ease;
-        width: 50px;
-        height: 50px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    
-    a:hover img {
-        opacity: 0.8;
-        transform: scale(1.1);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-    
-    a:active img {
-        transform: scale(0.95);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    } */
-    
     a img {
         background-color: #FFFFFF;
         border: none;
@@ -296,36 +258,6 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     }
     
-    /* Responsive adjustments */
-/*     @media (max-width: 1200px) {
-        a img {
-            width: 40px;
-            height: 40px;
-        }
-    }
-    
-    @media (max-width: 992px) {
-        a img {
-            width: 30px;
-            height: 30px;
-        }
-    }
-    
-    @media (max-width: 768px) {
-        a img {
-            width: 25px;
-            height: 25px;
-        }
-    }
-    
-    @media (max-width: 576px) {
-        a img {
-            width: 20px;
-            height: 20px;
-        }
-    }
-     */
-      
 
 
 
@@ -346,35 +278,3 @@
             flex: 1 1 100%;
         }
     }
-
-
-
-
-    
-    /* NEW NEW */
-
-/*     @media (max-width: 1200px) {
-        .yoyo0 {
-            font-size: 14px;
-        }
-    }
-    
-    @media (max-width: 992px) {
-        .yoyo0 {
-            font-size: 12px;
-        }
-    }
-    
-    @media (max-width: 768px) {
-        .yoyo0 {
-            font-size: 10px;
-        }
-    }
-    
-    @media (max-width: 576px) {
-        .yoyo0 {
-            font-size: 8px;
-        }
-    } */
-
-      
