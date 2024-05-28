@@ -8,8 +8,6 @@
         background: url('score.jpg')
         
         
-        
-        
     }
     .container {
         max-width: 1200px;
@@ -20,6 +18,11 @@
         width:100%;
         min-height: 100vh;
         position: relative;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        margin: 0 auto;
       
     }
     header {
@@ -36,6 +39,8 @@
         text-align: center;
         width: 100%;
         margin: 0 auto;
+        background: url('bg_head.jpg')
+        
         }
 
     .header-title {
@@ -47,6 +52,8 @@
         text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
         margin-bottom: 10px;
         margin-top: 0;
+        background-color: #FBFBFF;
+        
     }
     .content {
         display: flex;
@@ -62,10 +69,28 @@
     }
     .mmt {
         margin-bottom: 20px;
-        padding: 10px;
         background-color: #f9f9f9;
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
         font-family: 'Comic Sans MS', cursive, sans-serif;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mmt00 {
+        /* margin-bottom: 10px;
+        padding: 50px; */
+        background-color: #f9f9f9;
+        /* box-shadow: 0 0 1px rgba(0,0,0,0.9); */
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        /* border-radius: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        min-width: 7.5%;
+        max-width: fit-content;
+        margin: 0 auto;
+        float: left;
+     */
     }
     .mmt h3 {
         font-size: 1.5em;
@@ -157,6 +182,7 @@
         cursor: pointer;
         border-radius: 50px;
         transition: all 0.3s ease;}
+        
     .yoyo{
         font-family: "Courier New", Courier, monospace;
         font-weight: bold;
@@ -210,8 +236,7 @@
         5px 5px 70px rgba(255,255,255,0.5);
         transform: scale(1,1.1) translate(-50%, 10%);
       }
-      
-      
+    
       
       @keyframes loading {
         from {
