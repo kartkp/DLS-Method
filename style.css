@@ -270,17 +270,7 @@
     footer span {
         color: #a4a1a1;
     }
-/*     @media only screen and (max-width: 600px) {
-        footer {
-            font-size: 12px;
-        }
-    }
-    @media only screen and (max-width: 400px) {
-        footer {
-            font-size: 10px;
-        }
-    }
- */
+
 
 		@media only screen and (max-width: 600px)
 			footer {
@@ -292,12 +282,6 @@
 				font-size: 7px;
 			}
 		}
-
-
-
-
-
-
 
 
       @keyframes loading {
