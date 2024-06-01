@@ -659,16 +659,16 @@ footer.dark-mode,
 
 
 
-    @media (max-width: 768px) {
-        .content {
-            flex-direction: column;
-        }
-        .calculator, .sidebar {
-            flex: 1 1 100%;
-        }
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
     }
+    .calculator, .sidebar {
+        flex: 1 1 100%;
+    }
+}
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .switch {
     width: 10%;
     height: 18%;
