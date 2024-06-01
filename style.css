@@ -672,17 +672,6 @@ footer.dark-mode,
 
 
 
-
-
-    @media (max-width: 768px) {
-        .content {
-            flex-direction: column;
-        }
-        .calculator, .sidebar {
-            flex: 1 1 100%;
-        }
-    }
-
 /*     @media (max-width: 400px) {
         .switch {
           width: 40px;
@@ -700,25 +689,9 @@ footer.dark-mode,
         }
       } */
 
-@media (max-width: 400px) {
-    .switch {
-      width: 40px;
-      height: 22px;
-    }
-    
-    .slider:before {
-      height: 18px;
-      width: 18px;
-    }
-  
-    .slider:after, input:checked + .slider:after {
-      font-size: 0.6em;
-      padding: 3px 6px;
-    }
-  }
 @media (max-width: 480px) {
   .switch {
-    width: 30%;
+    width: 10%;
     height: 18%;
   }
 
@@ -726,12 +699,23 @@ footer.dark-mode,
     height: 17px;
     width: 17px;
   }
+  .slider::after{
+    font-size: 6px;
+    left: 0;
+  }
 
   input:checked + .slider:before {
-    transform: translateX(60%);
+    transform: translateX(43%);
     font-size: 0.6em;
     padding: 3px 6px;
   }
+  input:checked + .slider:after {
+    font-size: 6px;
+    left: 5;
+}
+.slider:before {
+    bottom: 2.9px;
+}
 }
 
 /* @media (max-width: 480px) {
