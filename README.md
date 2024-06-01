@@ -23,6 +23,9 @@ You can try out the calculator [here](https://kartkp.github.io/DLS-Method/).
 ### Screenshot
 
 ![DLS Method Calculator Screenshot](ss00.png)
+![DLS Method Calculator Dark Mode Screenshot](ss01.png)
+![DLS Method Calculator Dark Mode Screenshot](ss02.png)
+![DLS Method Calculator Execution Screenshot](ss03.png)
 
 
 ## Development
@@ -30,9 +33,4 @@ You can try out the calculator [here](https://kartkp.github.io/DLS-Method/).
 ### Prerequisites
 
 - Web Browser (Chrome, Firefox, Safari, etc.)
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/kartkp/DLS-Method.git
-cd DLS-Method
+- Result will only appear in Phoenix Browser(Because of SSR not functional on GitHub).
