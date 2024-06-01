@@ -22,7 +22,7 @@ You can try out the calculator [here](https://kartkp.github.io/DLS-Method/).
 
 ### Screenshot
 
-![DLS Method Calculator Screenshot](path/to/your/screenshot.png)
+![DLS Method Calculator Screenshot](ss00.png)
 
 
 ## Development
