@@ -18,6 +18,13 @@ Welcome to the Duckworth-Lewis-Stern (DLS) Method Calculator! This online sports
 
 You can try out the calculator [here](https://kartkp.github.io/DLS-Method/).
 
+## Previews
+
+### Screenshot
+
+![DLS Method Calculator Screenshot](path/to/your/screenshot.png)
+
+
 ## Development
 
 ### Prerequisites
