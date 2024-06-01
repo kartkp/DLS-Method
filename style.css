@@ -5,10 +5,10 @@
         margin: 0;
         padding: 0;
         background-color: #f2f2f2;
-        background: url('score.jpg') 
+        background: url('score-blur.jpg') 
            
     }
-    
+
     .container {
         max-width: 1200px;
         margin: 20px auto;
@@ -181,8 +181,11 @@
         border-radius: 50px;
         transition: all 0.3s ease;
         font-family: "Courier New", Courier, monospace;
-        font-weight: bold;
+        font-weight: bold;        
+
+
     }
+
     .myname {
         background-color: #ebecf4;
         border: none;
@@ -233,44 +236,7 @@
         font-family: 'Comic Sans MS', cursive, sans-serif;
 
     }
-    .loader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #6e79ad;
-        transition: opacity 0.75s, visibility 0.75s;
-      }
-      
-      .loader--hidden {
-        opacity: 0;
-        visibility: hidden;
-      }
-      
-      .loader::after {
-        content: "";
-        width: 75px;
-        height: 75px;
-        border: 15px solid #dddddd;
-        border-top-color: #bfc6ef;
-        border-radius: 50%;
-        animation: loading 0.75s ease infinite;
-      }
-      .text {
-        top:30%;
-        left:50%;
-        position: absolute;
-        font-family: 'Franklin Gothic Heavy';
-        font-size: 15vw;
-        color:white;
-        text-shadow: 2px 2px 5px rgba(0,0,0,0.3),
-        5px 5px 70px rgba(255,255,255,0.5);
-        transform: scale(1,1.1) translate(-50%, 10%);
-      }
+    
       .side-icons {
         float: left;
         background-color: #6e79ad;
@@ -453,13 +419,14 @@
     
     .first-footer .mailfooter {
         margin: 0;
-        width: 20px; 
+        width: 15px; 
         height: 27px; 
         bottom: 0;
         width: 100vw; 
         background-color: #252525;
         color: gray;
         text-align: center; 
+        font-size: smaller;
         padding: 10px;
         display: flex;
         align-items: center; 
@@ -475,14 +442,237 @@
         margin: 0;
     }
 
-      @keyframes loading {
-        from {
-          transform: rotate(0turn);
-        }
-        to {
-          transform: rotate(1turn);
-        }
-      }  
+
+
+    /* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #adadad;
+    background: url('score-blur-dark.jpg');
+}
+
+.container.dark-mode {
+    background-color: #1e1e1e;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.header-title-box.dark-mode {
+    background-color: #1e1e1e;
+    background: url('bg-head-dark.jpg');
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.header-title.dark-mode {
+    color: #a281ca;
+    background-color: #1e1e1e;
+}
+
+.calculator.dark-mode,
+.mmt.dark-mode,
+.mmt00.dark-mode {
+    background-color: #2c2c2c; 
+}
+
+.btn-calculate.dark-mode,
+.btn-clear.dark-mode {
+    background-color: #a281ca;
+    color: #121212;
+}
+
+.btn-calculate:hover.dark-mode, .btn-clear:hover.dark-mode {
+    box-shadow: 0 12px 16px 0 rgba(116, 116, 116, 0.24), 0 17px 50px 0 rgba(116, 116, 116, 0.24);
+    
+}
+
+.btn-purple_wala.dark-mode {
+    background-color: #6e79ad;
+    color: #efeded;
+    
+}
+
+.myname.dark-mode {
+    background-color: #3a3a3a;
+    color: #bb86fc;
+}
+
+.connect.dark-mode {
+    background-color: #4a4a4a;
+    color: #bb86fc;
+}
+.yoyo.dark-mode {
+    background-color: #791616;
+    color: #a281ca;
+
+}
+.mmt_calc_frm.dark-mode{
+    background-color: #791616;
+    color: #a281ca;
+
+}
+
+.side-icons.dark-mode{
+    background-color: #a281ca;
+    color: #13b13a;
+    /* background: url('about_dark.jpg'); */
+
+}
+.side-icons0.dark-mode{
+    background-color: #a281ca;
+    color: #13b13a;
+    /* background: url('calci-dark.jpg'); */
+
+}
+.side-icons1.dark-mode {
+    background-color: #a281ca;
+    color: #13b13a;
+    /* background: url('project-dark.jpg'); */
+}
+
+
+footer.dark-mode,
+.first-footer.dark-mode {
+    /* background-color: #1e1e1e; */
+    color: #9f6d09;
+}
+
+.first-footer .mailfooter.dark-mode {
+    background-color: #2e2e2e;
+    color: #C7C7C7;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+    /* content: "CALCI"; */
+    transform: translateY(-50%);
+    background-color: #6e79ad;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: all 0.4s ease-in-out;
+    z-index: 1;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+    
+  }
+  
+  .slider:after {
+    content: "Dark Mode";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 135%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: all 0.7s ease-in-out;
+    font-size: 10px;
+    z-index: 1;
+    opacity: 1; /* Initially hidden */
+  }
+  
+  input:checked + .slider:after {
+
+    content: "Bright Mode";
+    opacity: 1;
+    top: 135%;
+    position: absolute;
+    left: -7%;
+    right: 0;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: all 0.7s ease-in-out;
+    font-size: 10px;
+  }
+  
+  .slider:hover:after {
+    opacity: 1; /* Show label on hover */
+    top: 120%;
+
+  }
+  input:checked + .slider:hover:after{
+    top: 120%;
+  }
+  /* .slider:hover::after {
+    content: "Dark Mode";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 130%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: all 0.7s ease-in-out;
+    font-size: 10px; 
+    z-index: 1;
+} */
+  
+  input:checked + .slider {
+    background-color: #a281ca;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+    
+  }
+
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+
 
     @media (max-width: 768px) {
         .content {
@@ -493,6 +683,69 @@
         }
     }
 
+    @media (max-width: 400px) {
+        .switch {
+          width: 40px;
+          height: 22px;
+        }
+        
+        .slider:before {
+          height: 18px;
+          width: 18px;
+        }
+      
+        .slider:after, input:checked + .slider:after {
+          font-size: 0.6em;
+          padding: 3px 6px;
+        }
+      }
 
+      .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #6e79ad;
+        transition: opacity 0.75s, visibility 0.75s;
+      }
+      
+      .loader--hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+      
+      .loader::after {
+        content: "";
+        width: 75px;
+        height: 75px;
+        border: 15px solid #dddddd;
+        border-top-color: #bfc6ef;
+        border-radius: 50%;
+        animation: loading 0.75s ease infinite;
+      }
+      .text {
+        top:30%;
+        left:50%;
+        position: absolute;
+        font-family: 'Franklin Gothic Heavy';
+        font-size: 15vw;
+        color:white;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.3),
+        5px 5px 70px rgba(255,255,255,0.5);
+        transform: scale(1,1.1) translate(-50%, 10%);
+      }
+
+      @keyframes loading {
+        from {
+          transform: rotate(0turn);
+        }
+        to {
+          transform: rotate(1turn);
+        }
+      }  
 
       
