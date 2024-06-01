@@ -633,22 +633,7 @@ footer.dark-mode,
   input:checked + .slider:hover:after{
     top: 120%;
   }
-  /* .slider:hover::after {
-    content: "Dark Mode";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 130%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 5px 5px;
-    border-radius: 5px;
-    white-space: nowrap;
-    transition: all 0.7s ease-in-out;
-    font-size: 10px; 
-    z-index: 1;
-} */
+
   
   input:checked + .slider {
     background-color: #a281ca;
@@ -672,24 +657,9 @@ footer.dark-mode,
 
 
 
-/*     @media (max-width: 400px) {
-        .switch {
-          width: 40px;
-          height: 22px;
-        }
-        
-        .slider:before {
-          height: 18px;
-          width: 18px;
-        }
-      
-        .slider:after, input:checked + .slider:after {
-          font-size: 0.6em;
-          padding: 3px 6px;
-        }
-      } */
 
-@media (max-width: 768px) {
+
+    @media (max-width: 768px) {
         .content {
             flex-direction: column;
         }
@@ -726,21 +696,6 @@ footer.dark-mode,
     bottom: 2.9px;
 }
 }
-
-/* @media (max-width: 480px) {
-  .switch {
-    width: 30%;
-  }
-
-  .slider:before {
-    height: 60%;
-    width: 60%;
-  }
-
-  input:checked + .slider:before {
-    transform: translateX(60%);
-  }
-} */
 
       .loader {
         position: fixed;
