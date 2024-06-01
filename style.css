@@ -683,7 +683,7 @@ footer.dark-mode,
         }
     }
 
-    @media (max-width: 400px) {
+/*     @media (max-width: 400px) {
         .switch {
           width: 40px;
           height: 22px;
@@ -698,7 +698,37 @@ footer.dark-mode,
           font-size: 0.6em;
           padding: 3px 6px;
         }
-      }
+      } */
+
+@media (max-width: 768px) {
+  .switch {
+    width: 20%;
+  }
+
+  .slider:before {
+    height: 70%;
+    width: 70%;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .switch {
+    width: 30%;
+  }
+
+  .slider:before {
+    height: 60%;
+    width: 60%;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(60%);
+  }
+}
 
       .loader {
         position: fixed;
